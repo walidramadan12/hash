@@ -58,6 +58,8 @@ let person = {
     age:"33",
     state:"beirut",
     greet: function(){
-        console.log(`hello my name is ${this.name}`)
+        console.log(`hello my name is ${person.name}`)
     }
 }
+console.log(` my name is ${person.name} and i am ${person.age} years old, living in ${person.state}`)
+console.log(person.greet())
