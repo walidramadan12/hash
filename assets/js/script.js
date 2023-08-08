@@ -44,11 +44,20 @@
 // }
 
 //           [0,1,2,3,4] INDEX
-let number = [1,2,3,4,5]
-console.log(number.length-1)
-let sliced = number.slice(0,4)  // (index, take abel ekhir index ) = slice
-console.log(number.length-1)
-console.log(sliced)
-console.log(number)
-number.splice(1,3,20,30,40,50)  // (interval index , replacement)
-console.log(number)
+// let number = [1,2,3,4,5]
+// console.log(number.length-1)
+// let sliced = number.slice(0,4)  // (index, take abel ekhir index ) = slice
+// console.log(number.length-1)
+// console.log(sliced)
+// console.log(number)
+// number.splice(1,3,20,30,40,50)  // (interval index , replacement)
+// console.log(number)
+
+let person = {
+    name:"ahmad",
+    age:"33",
+    state:"beirut",
+    greet: function(){
+        console.log(`hello my name is ${this.name}`)
+    }
+}
